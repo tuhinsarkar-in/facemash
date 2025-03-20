@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://awedaxel.vercel.app/sitemap.xml
+
+Allow: /js/
+Allow: /css/
