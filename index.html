@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FaceMash 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="banner">
+    <h1><strong><b>FACEMASH 2.0</b></strong></h1>
+    <h4>Made by <a href = "https://tuhinsarkar.netlify.app" style="color: white; text-decoration: underline;" target="_blank">Tuhin Sarkar</a></h4>
+   
+  </div>
+
+  
+  
+ 
+    <h3>Does looks matter? Yes... Will we be judged on them? Absolutely!</h3>
+    <h2>Who's Hotter? &nbsp; Click to Choose.</h2>
+    <div class="images">
+      <div class="image-card" id="left-image">
+        <img src="images/person1.jpg" alt="Left Image">
+      </div>
+      <div class="image-card" id="right-image">
+        <img src="images/person2.jpg" alt="Right Image">
+      </div>
+    </div>
+    <h3>These are the students of the Class 8th Olympiad from the Narayana Whitefield BLR-WF-459 branch. </h3>
+    <h3>Pictures have been salvaged from online class, social media, and other sources... </h3>
+	    <style>
+      
+        .box {
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <center> <div class="box">
+      <h3>Other stuff you should probably look at:</h3>
+	  <p><a href = "">Narayana Meme Page</a></p>
+    </div></center>
+    <hr>
+    <div class="leaderboard-section">
+      <h2>Leaderboard</h2>
+      <div id="leaderboard" class="leaderboard"></div>
+    </div>
+    &nbsp;
+    <hr>
+  
+
+    <h3>Note: Every person starts with a base score of 1400 points. It uses an Elo Rating System. The votes are not saved and will reset if you refresh the website or open it again...</h3>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+</head>
+</html>
